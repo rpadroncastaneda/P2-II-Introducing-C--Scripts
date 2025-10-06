@@ -186,7 +186,9 @@ Muestra en consola el resultado de multiplicar la velocidad por el valor de los 
 ---
 
 ## Ejercicio 7
-### (Espacio para captura de pantalla)
+### Configuración del Input Manager
+![Configuración del Input Manager para mapear H a Fire1](ImgGif/ej7.png)
+
 **Descripción:**
 Mapea la tecla H a la función de disparo usando el Input Manager. (No hay script asociado, se configura en el Input Manager y se puede usar `Input.GetButtonDown("Fire1")` en un script de disparo.)
 
@@ -328,4 +330,23 @@ Utiliza el eje Horizontal para girar el objeto y avanza siempre en la dirección
 ---
 
 ## Resultados visuales
-(Espacio para añadir un par de gifs mostrando cómo funcionan los scripts en la escena)
+
+### Ejercicios 1-6: Comportamientos básicos
+![Ejercicios 1-6 en funcionamiento](ImgGif/ej1-6.gif)
+
+Este GIF muestra los ejercicios del 1 al 6 en acción:
+- **Ejercicio 1**: Se ve como cambia la esfera de color cada 120 frams como esta configurado en el inspector.
+- **Ejercicio 2**: Operaciones con vectores ya introduciodes en el inspector, resultados mostrados en consola.
+- **Ejercicio 3**: Visualización de la posición de la esfera en pantalla, en la zona arriba izquierda.
+- **Ejercicio 4**: el calculo de la sdistancias entre elementos de la escena mostrado en consola.
+- **Ejercicio 5**: Cambio de posición con la barra espaciadora, desplazamiento puesto en el inspector.
+- **Ejercicio 6**: Detección de pulsaciones de flechas y cálculo de velocidad, con velocidd modificada.
+
+### Ejercicios 8-13: Movimiento avanzado
+![Ejercicios 8-13 en funcionamiento](ImgGif/ej8-13.gif)
+
+Este GIF muestra los ejercicios del 8 al 13 en acción:
+- **Ejercicio 8**: Movimiento del cubo rojo hacia la derecha(va rapido porque no tiene Time.deltaTime)
+- **Ejercicio 9 y 10**: Control de movimiento con WASD en la esfera directamente usando Time.deltaTime.
+- **Ejercicio 11 y 12**: El cubo azul mira hacia la esfera mientras avanza hacia esta
+- **Ejercicio 13**: Control de rotación con eje horizontal y avance hacia adelante del cubo azul en la segunda ejecución del juego.
